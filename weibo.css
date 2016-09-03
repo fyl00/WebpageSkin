@@ -1,0 +1,595 @@
+/*
+ * 修改微博界面，预览图 －> screenshot/weibo.png
+ * 基于 Weibo.css - https://github.com/s0s0/BrainFlower
+ */
+
+.PCD_longwb_content .info {
+    color: #999;
+    font-size: 13px;
+}
+
+.PCD_longwb_content h1 {
+    font-size: 34px;
+}
+
+.PCD_mplayer, .PCD_nodelayer, #WB_webim, #v6_pl_content_biztips, #v6_trustPagelet_recom_member, #v6_pl_rightmod_hongbaoentrance, .title_area, a.W_icon.icon_setskin, .WB_right_expand, .gn_topmenulist_search, .W_new, a.W_ficon.ficon_more.S_ficon, .WB_feed_together,.WB_search_s .pos, #webim_fold,#PCD_mplayer, div[id^="v6_pl_rightmod_ads"], div[feedtype=ad], div[id^="v6_pl_rightmod_noticeboard"], div[id^="v6_pl_rightmod_recomfriends"], div#Pl_Core_Pt6Rank__6, div#Pl_Card_ParentNodev6__5, div#Pl_Official_CardMixFeedv6__4 {
+    display: none;
+}
+
+.S_page {
+    background-color: #fff;
+    background-image: none;
+}
+
+.UI_scrollView {
+    height: 700px;
+}
+
+.WB_cardtitle_a .opt_box, .WB_cardtitle_b .opt_box {
+    right: 0;
+}
+
+.WB_cardtitle_a, .WB_cardtitle_b {
+    padding: 0;
+}
+
+.WB_cardtitle_a.W_tc {
+    color: #999;
+}
+
+.WB_cardtitle_b {
+    border: 0;
+}
+
+.WB_cardwrap {
+    border-bottom: 1px #eee solid;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.WB_detail {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.WB_expand.S_bg1 {
+    background: #f5f5f5;
+    margin: 0;
+    padding: 8px 14px;
+}
+
+.WB_face {
+    margin-right: 12px;
+    width: 30px;
+}
+
+.WB_face .face img {
+    height: 30px;
+    width: 30px;
+}
+
+.WB_feed {
+    margin-top: 10px;
+}
+
+.WB_feed > div[node-type=feed_spread] {
+    display: none;
+}
+
+.WB_feed > div[requesttype=newFeed] {
+    background: #FEF9DF;
+    border: 1px #ffeebb solid;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+.WB_feed_detail {
+    padding: 10px 0 0 0;
+}
+
+.WB_feed_handle .WB_row_line {
+    border: 0;
+}
+
+.WB_feed_publish > .WB_face {
+    display: none;
+}
+
+.WB_feed_repeat .WB_face img {
+    border-radius: 2px;
+}
+
+.WB_feed_repeat .WB_publish {
+    margin: 0;
+}
+
+.WB_feed_repeat .WB_repeat {
+    background: #F5F5F5;
+    border: 1px #DDD solid;
+    border-radius: 4px;
+}
+
+.WB_feed_repeat .W_tips {
+    display: none;
+}
+
+.WB_feed_repeat .repeat_list {
+    padding: 0 20px;
+}
+
+.WB_feed_repeat .repeat_list .list_box {
+    margin: 0;
+}
+
+.WB_feed_repeat .repeat_list .list_li {
+    padding: 7px 0 7px;
+}
+
+.WB_feed_spec.S_bg2.S_line1 {
+    display: none;
+}
+
+.WB_frame {
+    background-color: transparent;
+    width: 1100px;
+}
+
+.WB_frame_a, .WB_frame_a_fix, .WB_frame_b, .WB_frame_c, .WB_frame_d, .WB_main_l, .WB_main_c, .WB_main_r, .WB_main_cr, .WB_main_a, .WB_toptips {
+    font-size: 14px;
+}
+
+.WB_from.S_txt2 {
+    color: #D0D0D0 ;
+    font-size: 13px;
+}
+
+.WB_global_nav {
+    background: #F8F8F8;
+    border-bottom: 1px solid #eee;
+    border-top: 0;
+    box-shadow: none;
+    height: 66px;
+}
+
+.WB_global_nav .gn_header {
+    height: 66px;
+    margin: 10px auto;
+}
+
+.WB_global_nav .gn_nav_list li a {
+    font-size: 15px;
+}
+
+.WB_global_nav_alpha {
+    background: #F8F8F8;
+    box-shadow: none;
+}
+
+.WB_innerwrap {
+    padding: 6px 0;
+}
+
+.WB_left_nav .S_txt1 {
+    color: #494A4C;
+}
+
+.WB_left_nav .lev .ico_block {
+    display: none;
+}
+
+.WB_left_nav .lev a, .WB_left_nav .lev_Box h3.lev a {
+    font-size: 16px;
+    padding: 0;
+}
+
+.WB_left_nav .lev_line {
+    display: none;
+}
+
+.WB_left_nav.WB_left_nav_Atest > div:nth-child(3), .WB_left_nav.WB_left_nav_Atest > div:nth-child(4) {
+    display: none;
+}
+
+.WB_left_nav.WB_left_nav_Atest.autoFixed {
+    display: none;
+}
+
+.WB_main_c {
+    margin-right: 50px;
+}
+
+.WB_main_r {
+    margin-right: 0;
+    width: 300px;
+}
+
+.WB_main_r > div:nth-child(3) {
+    display: none;
+}
+
+.WB_media_wrap {
+    margin: 6px 0 8px -10px;
+}
+
+.WB_miniblog {
+    background: none;
+    padding-top: 90px;
+}
+
+.WB_notes a, .WB_notes .wrap {
+    color: #eb7350;
+}
+
+.WB_publish .p_input .W_input {
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 8px;
+    width: 97%;
+}
+
+.WB_right_module .hot_topic li {
+    padding: 10px 0 5px;
+}
+
+.WB_right_module .hot_topic li .total {
+    color: #999;
+}
+
+.WB_row_line a {
+    text-align: left;
+}
+
+.WB_row_r4 li {
+    margin: 0 35px 0 0px;
+    width: auto;
+}
+
+.WB_search_s .W_input {
+    border: 1px solid #D1D0D0;
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.06);
+    color: #BBBBBB;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    width: 155px;
+}
+
+.WB_tab_a {
+    box-shadow: none;
+    margin: 0;
+}
+
+.WB_tab_a .WB_search_s {
+    margin: 0;
+}
+
+.WB_tab_a .tab .t {
+    color: #A9A9A9;
+    font-size: 16px;
+    padding: 0;
+}
+
+.WB_tab_a .tab li.S_bg2, .WB_tab_a .tab li.curr .b .b1 em i {
+    box-shadow: none;
+}
+
+.WB_tab_a .tab_box .fr_box {
+    box-shadow: none;
+    height: 38px;
+}
+
+.WB_text {
+    line-height: 26px;
+}
+
+.WB_text.W_f14 {
+    margin-top: 14px;
+    position: relative;
+}
+
+.W_btn_a, .W_btn_b, .W_btn_c, .W_btn_d {
+    font-size: 14px;
+}
+
+.W_f14 {
+    font-size: 15px;
+}
+
+.W_face_radius {
+    border-radius: 2px;
+}
+
+.W_gotop {
+    background-color: #CFD1D3;
+    border-radius: 4px;
+}
+
+.W_person_info {
+    height: 127px;
+}
+
+.W_person_info .WB_innerwrap {
+    padding: 4px 0px 0px 0px;
+}
+
+.W_person_info .cover {
+    height: 0;
+}
+
+.W_person_info .nameBox .W_icon_level {
+    display: none;
+}
+
+.content {
+    border-top: 2px solid #fff;
+}
+
+.func_area {
+    border-top: 1px #DDD solid;
+    padding: 6px 9px;
+}
+
+.gn_nav_list > li:nth-child(1),.gn_nav_list > li:nth-child(2),.gn_nav_list > li:nth-child(3),.gn_nav_list > li:nth-child(4) {
+    display: none;
+}
+
+.headpic {
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    margin-left: 0;
+    padding: 0;
+    position: static;
+    width: 50px;
+}
+
+.nameBox {
+    height: 0;
+    margin-left: 62px;
+    padding-top: 0;
+    text-align: left;
+}
+
+.private_dialogue_box .private_dialogue_body {
+    height: 700px;
+}
+
+.screen_box {
+    display: none;
+}
+
+.send_weibo {
+    background: none;
+    border: 1px #DDD solid;
+    border-radius: 4px;
+    box-shadow: none;
+    height: 156px;
+    margin: 0;
+    padding: 0;
+}
+
+.send_weibo .input {
+    border-color: #FFF;
+    box-shadow: none;
+    height: 86px;
+    margin: 0;
+    padding: 8px;
+}
+
+.send_weibo .input .W_input {
+    height: 86px;
+}
+
+.user_atten {
+    height: 44px;
+    margin: 65px 0 0 0;
+}
+
+.user_atten > li:nth-child(2),.user_atten > li:nth-child(3) {
+    padding-left: 30px;
+}
+
+.user_atten li {
+    text-align: left;
+}
+
+.user_atten li .S_txt2 {
+    color: #999999;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.user_atten li a:hover {
+    color: #EB7350;
+}
+
+.user_atten li strong {
+    color: #494A4C;
+}
+
+.webim_contacts_mod.S_bg2 {
+    margin-top: 130px;
+}
+
+a.S_txt2 {
+    color: #D0D0D0;
+    font-size: 13px;
+}
+
+a.S_txt2:hover {
+    color: #eb7350;
+}
+
+a.W_f14.W_fb.S_txt1 {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+  .WB_global_nav .gn_header {    
+    width: 1100px;
+  }
+  .WB_global_nav .gn_logo .box .logo {    
+    background-position: 0% 40%;
+  }
+  .WB_global_nav .gn_search {    
+    margin: 4px 0 0 0;
+  }
+  .WB_global_nav .gn_search .ficon_search {    
+    top: 8px;
+  }
+  .WB_global_nav .gn_search .W_input {    
+    width: 339px;    
+    margin-left: 10px;    
+    height: 40px;    
+    background: #FFF;    
+    border: 1px solid #D1D0D0;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    
+    -webkit-border-radius: 4px;    -webkit-border-radius: 4px;
+    border-radius: 4px;    
+    padding: 0px 0px 0px 10px;    
+    font-size: 14px;    
+    color: #BBB;
+  }
+  .WB_global_nav .gn_topmenulist_tips {    
+    right: -38px;    
+    top: 44px;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;    -webkit-box-shadow: none;
+    box-shadow: none;    
+    color: #666;
+  }
+  .WB_global_nav .gn_topmenulist_tips ul li {    
+    padding: 9px 30px 9px 11px;
+  }
+  .WB_global_nav .gn_topmenulist_tips .ficon_close {    
+    font-size: 15px;    
+    color: #999;
+  }
+}
+
+body {
+    background: #fff;
+    color: #494A4C;
+    font-family: 'Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+}
+
+div#Pl_Core_Pt6Rank__7 {
+    display: none;
+}
+
+div#Pl_Official_CardLongFeedv6__2 {
+    margin-left: 190px;
+    width: 700px;
+}
+
+div#home_new_feed_tip {
+    background: #FEF9DF;
+    border: 1px #ffeebb solid;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+div#plc_main {
+    width: 950px;
+}
+
+div#skin_cover_s {
+    background: none
+;
+}
+
+div#v6_pl_content_homefeed {
+    margin-top: 30px;
+}
+
+div#v6_pl_rightmod_attfeed {
+    display: none;
+}
+
+div#v6_pl_rightmod_rank {
+    display: none;
+}
+
+div#v6_pl_rightmod_recominfo > div:nth-child(1), div#v6_pl_rightmod_recominfo > div:nth-child(5), div#v6_pl_rightmod_recominfo > div:nth-child(6), div#v6_pl_rightmod_recominfo > div:nth-child(7) {
+    display: none;
+}
+
+div.WB_expand_media_box {
+    margin-left: 0px;
+}
+
+div.gn_search_v2 {
+    margin-left: 8px;
+    width: 600px ;
+}
+
+em.W_ficon {
+    color: #494A4C;
+}
+
+em.W_ficon.ficon_rotate.S_ficon, .WB_cardtitle_a .opt_change, .WB_cardtitle_b .opt_change {
+    color: #999;
+}
+
+em.W_new_count {
+    display: none;
+}
+
+img.W_face_radius {
+    height: 50px;
+    width: 50px;
+}
+
+li > p {
+    font-size: 14px;
+}
+
+p {
+    font-size: 16px;
+}
+
+span.levtxt:hover {
+    color: #EB7350;
+}
+
+span.line.S_line1 {
+    border: 0;
+    color: #BBBBBB;
+    font-size: 14px;
+}
+
+span.line.S_line1:hover {
+    color: #eb7350;
+}
+
+textarea.W_input {
+    font-size: 15px;
+    line-height: 22px;
+}
+

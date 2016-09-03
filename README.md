@@ -6,3 +6,7 @@
 
 * font.css   将中文字符替换成微软雅黑，避免 iconfont 无法显示。
 
+* weibo.css 基于 [BrainFlower](https://github.com/s0s0/BrainFlower/blob/master/weibo.css) 修改的微博皮肤，预览 ⬇️
+
+   ![weibo](screenshot/weibo.png)
+
